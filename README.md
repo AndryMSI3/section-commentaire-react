@@ -1,8 +1,16 @@
 # react-comments-section
 
-## 🚀 À propos de ce fork
+### 🚀 À propos de ce fork
 Ce projet est un fork du projet original [react-comments-section](https://github.com/RiyaNegi/react-comments-section) créé par [RiyaNegi](https://github.com/RiyaNegi). Je ne suis pas l'auteur du plugin, mais je travaille sur une version modifiée ou adaptée.
 
+### 📌 Objectif de cette contribution
+Le but de cette contribution est de démontrer ma capacité à :
+
+- Modifier une bibliothèque React existante.
+
+- Comprendre et analyser le code écrit par d'autres développeurs.
+
+- Améliorer et optimiser un code déjà existant pour le rendre plus performant et/ou plus fonctionnel.
 
 ## Installation
 
