@@ -10,7 +10,7 @@ Le but de cette contribution est de démontrer ma capacité à :
 
 - Comprendre et analyser le code écrit par d'autres développeurs.
 
-- Améliorer et optimiser un code déjà existant pour le rendre plus performant et/ou plus fonctionnel.
+- Améliorer et optimiser un code déjà existant.
 
 ## Installation
 
