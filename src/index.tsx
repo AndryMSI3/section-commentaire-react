@@ -11,12 +11,6 @@ interface CommentSectionProps {
     currentUserProfile: string // Profil de l'utilisateur (optionnel)
     currentUserFullName: string // Nom complet de l'utilisateur actuel
   } | null
-  logIn: {
-    loginLink?: string // Lien pour la connexion (optionnel)
-    signUpLink?: string // Lien pour l'inscription (optionnel)
-    onLogin?: () => void // Fonction à appeler pour la connexion (optionnel)
-    onSignUp?: () => void // Fonction à appeler pour l'inscription (optionnel)
-  }
   replyTop?: boolean // Définit si la réponse se fait en haut
   customImg?: string // Image personnalisée pour les commentaires (optionnel)
   inputStyle?: object // Styles personnalisés pour le champ de saisie (optionnel)
@@ -69,7 +63,6 @@ export const CommentSection = ({
   cancelBtnStyle,
   overlayStyle,
   replyInputStyle,
-  logIn,
   imgStyle,
   replyTop,
   commentsCount,
@@ -114,7 +107,6 @@ export const CommentSection = ({
       <CommentSectionComponent
         overlayStyle={overlayStyle} // Style pour l'overlay
         hrStyle={hrStyle} // Style pour la ligne horizontale
-        logIn={logIn} // Informations de connexion
         titleStyle={titleStyle} // Style du titre
         customNoComment={customNoComment} // Fonction pour personnaliser l'affichage lorsqu'il n'y a pas de commentaires
         showTimestamp={showTimestamp} // Afficher l'horodatage ?

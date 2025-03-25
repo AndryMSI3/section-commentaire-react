@@ -23,12 +23,6 @@ interface CommentStructureProps {
   parentId?: string
   replyMode: boolean
   showTimestamp?: boolean
-  logIn: {
-    loginLink?: string | (() => void)
-    signUpLink?: string | (() => void)
-    onLogin?: string | (() => void)
-    onSignUp?: string | (() => void)
-  }
 }
 
 const CommentStructure = ({
