@@ -1,5 +1,6 @@
 import React from 'react'
 
+/** Le composant à afficher quand il n'y a aucun commentaire */
 const NoComments = () => {
   return (
     <div className='no-comDiv'>
